@@ -1,7 +1,7 @@
-diff --git a/modules/node/src/NodeGrantDatabaseStorage.php b/modules/node/src/NodeGrantDatabaseStorage.php
+diff --git a/core/modules/node/src/NodeGrantDatabaseStorage.php b/core/modules/node/src/NodeGrantDatabaseStorage.php
 index 155c480b8e..11761d1117 100644
---- a/modules/node/src/NodeGrantDatabaseStorage.php
-+++ b/modules/node/src/NodeGrantDatabaseStorage.php
+--- a/core/modules/node/src/NodeGrantDatabaseStorage.php
++++ b/core/modules/node/src/NodeGrantDatabaseStorage.php
 @@ -187,9 +187,9 @@ class NodeGrantDatabaseStorage implements NodeGrantDatabaseStorageInterface {
            }
          }
