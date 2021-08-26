@@ -1,0 +1,16 @@
+diff --git a/modules/node/src/NodeGrantDatabaseStorage.php b/modules/node/src/NodeGrantDatabaseStorage.php
+index 155c480b8e..11761d1117 100644
+--- a/modules/node/src/NodeGrantDatabaseStorage.php
++++ b/modules/node/src/NodeGrantDatabaseStorage.php
+@@ -187,9 +187,9 @@ class NodeGrantDatabaseStorage implements NodeGrantDatabaseStorageInterface {
+           }
+         }
+ 
+-        $field = 'nid';
++        // $field = 'nid';
+         // Now handle entities.
+-        $subquery->where("[$nalias].[$field] = [na].[nid]");
++        // $subquery->where("[$nalias].[$field] = [na].[nid]");
+ 
+         $query->exists($subquery);
+       }
